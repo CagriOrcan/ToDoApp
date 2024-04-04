@@ -9,8 +9,6 @@ t
 Dapp/src/main/java/com/hycomist/todoapp/ui/fragment/UpdateFragment.kt,f/a/fa99d349ea0ed2c719fde939d8df5c94a2c04d59
 D
 app/build.gradle.kts,d/2/d2a4383452aad84a18429a5844d31330a012a9e6
-e
-5app/src/main/java/com/hycomist/todoapp/utils/Utils.kt,a/a/aaffabbdb60c592dd4de6d826e809046e20d1025
 k
 ;app/src/main/java/com/hycomist/todoapp/data/entity/ToDos.kt,1/a/1a9d58c6deddad8dad783173c50134d8b338b8d8
 @
@@ -70,3 +68,13 @@ I
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 Å
 Q.idea/sonarlint/securityhotspotstore/9/6/9694c85e417153c1e5e0ae830cbe58c7477951c0,e/6/e61f9adf737fcb68a12953e540ffc5fb0163501d
+r
+Bapp/src/main/java/com/hycomist/todoapp/data/entity/CRUDResponse.kt,f/2/f29ca2ed4ce0d664337c37892722f85ef01bc98b
+s
+Capp/src/main/java/com/hycomist/todoapp/data/entity/ToDosResponse.kt,d/0/d03febca5f1d96d7fe8a1d0c845570c80914adbc
+k
+;app/src/main/java/com/hycomist/todoapp/retrofit/ToDosDao.kt,1/0/102ff6b324704dc1ceea58262b19080c7e0ee852
+q
+Aapp/src/main/java/com/hycomist/todoapp/retrofit/RetrofitClient.kt,e/0/e02c24a8ea9b0552544c63bf5ffd0f011748c4bf
+k
+;app/src/main/java/com/hycomist/todoapp/retrofit/ApiUtils.kt,b/f/bf32702bfdf12f6a823301f2083c4f0ba07f0970

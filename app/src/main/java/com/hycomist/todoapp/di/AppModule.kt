@@ -2,6 +2,8 @@ package com.hycomist.todoapp.di
 
 import com.hycomist.todoapp.data.datasource.ToDosDataSource
 import com.hycomist.todoapp.data.repo.ToDosRepository
+import com.hycomist.todoapp.retrofit.ApiUtils
+import com.hycomist.todoapp.retrofit.ToDosDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,7 +21,13 @@ class AppModule {
 
     @Provides
     @Singleton
-    fun provideToDosDataSource(): ToDosDataSource {
-        return ToDosDataSource()
+    fun provideToDosDataSource(toDosDao: ToDosDao): ToDosDataSource {
+        return ToDosDataSource(toDosDao)
+    }
+
+    @Provides
+    @Singleton
+    fun provideToDosDao(): ToDosDao {
+        return ApiUtils.getToDosDao()
     }
 }

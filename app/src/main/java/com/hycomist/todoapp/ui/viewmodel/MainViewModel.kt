@@ -32,7 +32,10 @@ class MainViewModel @Inject constructor(var toDosRepo: ToDosRepository): ViewMod
 
     fun search(searchText: String) {
         CoroutineScope(Dispatchers.Main).launch {
-            toDosList.value = toDosRepo.search(searchText)
+            try {
+                toDosList.value = toDosRepo.search(searchText)
+            } catch (_: Exception) { }
+
         }
     }
 }
